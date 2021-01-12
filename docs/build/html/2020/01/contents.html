@@ -88,7 +88,12 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">2020</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">01</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#joint-modelling-of-chest-radiographs-and-radiology-reports-for-pulmonary-edema-assessment">Joint Modelling of Chest Radiographs and Radiology Reports for Pulmonary Edema Assessment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#joint-modelling-of-chest-radiographs-and-radiology-reports-for-pulmonary-edema-assessment">Joint Modelling of Chest Radiographs and Radiology Reports for Pulmonary Edema Assessment</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#first-pass-general-information"><strong>First pass: general information</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#second-pass-detail-explaination"><strong>Second Pass: detail explaination</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#third-pass-strengths-and-weakness"><strong>Third Pass: strengths and weakness</strong></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#chexpert-a-large-chest-radiograph-dataset">CheXpert: A Large Chest Radiograph Dataset</a></li>
 </ul>
 </li>
@@ -173,6 +178,41 @@
 <p><a class="reference external" href="https://arxiv.org/abs/2008.09884">Link</a></p>
 <p>注释：
 Pulmonary Edema - 肺水肿</p>
+<div class="section" id="first-pass-general-information">
+<h3><strong>First pass: general information</strong><a class="headerlink" href="#first-pass-general-information" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="category">
+<h4>Category:<a class="headerlink" href="#category" title="Permalink to this headline">¶</a></h4>
+<p>This paper present a machine learning algorithm/approach.</p>
+</div>
+<div class="section" id="contribution">
+<h4>Contribution<a class="headerlink" href="#contribution" title="Permalink to this headline">¶</a></h4>
+<p>It is present a neural network model that jointly learns from images and text to assess pulmonary edema severity from chest radiographs. The joint image-text representation learning framework incorporates the rich information present in the free-text radiology reports and significantly improves the performance of edema assessment compared to learning from images alone. The experimental results show that joint representation learning benefits from the large amount of unlabelled image-text data.</p>
+</div>
+</div>
+<div class="section" id="second-pass-detail-explaination">
+<h3><strong>Second Pass: detail explaination</strong><a class="headerlink" href="#second-pass-detail-explaination" title="Permalink to this headline">¶</a></h3>
+<p>This section is trying to figure out three main questions.</p>
+<div class="section" id="what-does-it-do">
+<h4>What does it do?<a class="headerlink" href="#what-does-it-do" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Uses a series of residual blocks to encode the image representation and uses the BERT model to encode the text representation.</p></li>
+<li><p>Data: regex labelling</p></li>
+</ul>
+</div>
+<div class="section" id="how-does-it-do-it">
+<h4>How does it do it?<a class="headerlink" href="#how-does-it-do-it" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Image pairs (image and text report)</p></li>
+<li><p>One of the key contribution is: how to connect the two different classifier? (joint representation learning for both image and text)</p></li>
+</ul>
+</div>
+<div class="section" id="what-did-it-find">
+<h4>What did it find?<a class="headerlink" href="#what-did-it-find" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+<div class="section" id="third-pass-strengths-and-weakness">
+<h3><strong>Third Pass: strengths and weakness</strong><a class="headerlink" href="#third-pass-strengths-and-weakness" title="Permalink to this headline">¶</a></h3>
+</div>
 </div>
 <div class="section" id="chexpert-a-large-chest-radiograph-dataset">
 <h2>CheXpert: A Large Chest Radiograph Dataset<a class="headerlink" href="#chexpert-a-large-chest-radiograph-dataset" title="Permalink to this headline">¶</a></h2>
