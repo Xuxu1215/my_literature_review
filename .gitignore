@@ -1,0 +1,10 @@
+# Mac
+
+*.DS_Store
+
+# Vim
+
+*.UN~
+*.MD~
+*.RST~
+*.PY~
