@@ -3,7 +3,7 @@
 *.RST~
 *.PY~
 
-*.DS_Store
+.DS_Store
 
 .venv/
 
