@@ -31,6 +31,13 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
+import sphinx_rtd_theme
+import recommonmark
+from recommonmark.parser import CommonMarkParser
+
+source_parsers = { '.md': CommonMarkParser, }
+source_suffix = ['.rst', '.md']
+
 extensions = [
     'recommonmark',
     'sphinx_markdown_tables'
@@ -55,10 +62,10 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
+html_static_path = [ ]
 
 
 # -- Change the theme
-import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
