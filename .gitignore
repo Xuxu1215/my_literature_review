@@ -4,3 +4,5 @@
 *.PY~
 
 .DS_Store
+
+.venv/
