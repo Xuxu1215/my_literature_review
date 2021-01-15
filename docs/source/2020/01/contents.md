@@ -27,8 +27,18 @@ This section is trying to figure out three main questions.
 
 ### **Third Pass: strengths and weakness**
 
+* * * * * 
 
 ## CheXpert: A Large Chest Radiograph Dataset
 
 [Link](https://stanfordmlgroup.github.io/competitions/chexpert/ "Markdown")
+
+### **First pass: general information**
+
+#### Category
+
+### **Second Pass: detail explaination**
+
+### **Third Pass: strengths and weakness**
+
 
