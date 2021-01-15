@@ -36,6 +36,10 @@ This section is trying to figure out three main questions.
 ### **First pass: general information**
 
 #### Category
+This paper present a large labeled Chest Radiograph Dataset.
+
+#### Contribution
+There are three main contributions in this paper. First, this dataset consists of 224316
 
 ### **Second Pass: detail explaination**
 
