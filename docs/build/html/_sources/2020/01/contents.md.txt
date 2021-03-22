@@ -45,7 +45,7 @@ There are three main contributions in this paper.
 
 #### General information of CheXpert Dataset
 
-1. meta information
+##### meta information
 
 View position from ViewCodeSequence_CodeMachine section, there are total 8 kind of machine code positon, there are: 
 
@@ -58,7 +58,7 @@ View position from ViewCodeSequence_CodeMachine section, there are total 8 kind 
 7. recumbent - 卧式, this type is very little
 8. blank 
 
-2. class 
+##### class 
 
 There are totally 14 classes in this dataset, they are: Atelectasis 肺不张, Cardiomegaly 心脏肥大, Consolidation 肺实变, Edema - pulmonary edama 肺水肿, Enlarged Cardiomediastinum 纵膈扩大, Fracture 骨折, Lung Lesion 肺部病变, Lung Opacity 肺部浑浊, No Finding, Pleural Effusion 胸腔积液, Pleural Other 胸腔其它, Pneumonia 肺炎, Pneumothorax 气胸, Support Devices.
 

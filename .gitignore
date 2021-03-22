@@ -2,6 +2,7 @@
 *.MD~
 *.RST~
 *.PY~
+*.BAT~
 
 .DS_Store
 
