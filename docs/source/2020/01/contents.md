@@ -36,13 +36,39 @@ This section is trying to figure out three main questions.
 ### **First pass: general information**
 
 #### Category
-This paper present a large labeled Chest Radiograph Dataset.
+This paper present a large labeled Chest Radiograph Dataset and one automation labeler.
 
 #### Contribution
-There are three main contributions in this paper. First, this dataset consists of 224316
+There are three main contributions in this paper.
 
 ### **Second Pass: detail explaination**
 
+#### General information of CheXpert Dataset
+
+1. meta information
+
+View position from ViewCodeSequence_CodeMachine section, there are total 8 kind of machine code positon, there are: 
+
+1. postero-anterior
+2. antero-posterior
+3. lateral
+4. left-lateral
+5. erect - 直立
+6. left anterior oblique - 左前斜
+7. recumbent - 卧式, this type is very little
+8. blank 
+
+2. class 
+
+There are totally 14 classes in this dataset, they are: Atelectasis 肺不张, Cardiomegaly 心脏肥大, Consolidation 肺实变, Edema - pulmonary edama 肺水肿, Enlarged Cardiomediastinum 纵膈扩大, Fracture 骨折, Lung Lesion 肺部病变, Lung Opacity 肺部浑浊, No Finding, Pleural Effusion 胸腔积液, Pleural Other 胸腔其它, Pneumonia 肺炎, Pneumothorax 气胸, Support Devices.
+
+In the original CheXpert paper, only 5 out of 14 classes that contain main pathology inidications has been evaluated, there are: Atelectasis, Cardiomegaly, Consolidation, Edema and Pleural Effusion.
+
+#### Data Pre-processing for my project
+
+- while processing the data to suit my project objecive, consider to use the front/erect image only which are postero-anterior, antero-posterior, erect and blank in ViewCodeSequence_CodeMachine section. 
+
 ### **Third Pass: strengths and weakness**
 
+* * * * *
 

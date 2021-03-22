@@ -32,6 +32,7 @@
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
     
     <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
@@ -94,7 +95,12 @@
 <li class="toctree-l4"><a class="reference internal" href="#third-pass-strengths-and-weakness"><strong>Third Pass: strengths and weakness</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#chexpert-a-large-chest-radiograph-dataset">CheXpert: A Large Chest Radiograph Dataset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chexpert-a-large-chest-radiograph-dataset">CheXpert: A Large Chest Radiograph Dataset</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2"><strong>First pass: general information</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5"><strong>Second Pass: detail explaination</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6"><strong>Third Pass: strengths and weakness</strong></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../02/contents.html">02</a></li>
@@ -218,6 +224,50 @@ Pulmonary Edema - 肺水肿</p>
 <div class="section" id="chexpert-a-large-chest-radiograph-dataset">
 <h2>CheXpert: A Large Chest Radiograph Dataset<a class="headerlink" href="#chexpert-a-large-chest-radiograph-dataset" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://stanfordmlgroup.github.io/competitions/chexpert/">Link</a></p>
+<div class="section" id="id2">
+<h3><strong>First pass: general information</strong><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>Category<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<p>This paper present a large labeled Chest Radiograph Dataset and one automation labeler.</p>
+</div>
+<div class="section" id="id4">
+<h4>Contribution<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<p>There are three main contributions in this paper.</p>
+</div>
+</div>
+<div class="section" id="id5">
+<h3><strong>Second Pass: detail explaination</strong><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="general-information-of-chexpert-dataset">
+<h4>General information of CheXpert Dataset<a class="headerlink" href="#general-information-of-chexpert-dataset" title="Permalink to this headline">¶</a></h4>
+<ol class="simple">
+<li><p>meta information</p></li>
+</ol>
+<p>View position from ViewCodeSequence_CodeMachine section, there are total 8 kind of machine code positon, there are:</p>
+<ol class="simple">
+<li><p>postero-anterior</p></li>
+<li><p>antero-posterior</p></li>
+<li><p>lateral</p></li>
+<li><p>left-lateral</p></li>
+<li><p>erect - 直立</p></li>
+<li><p>left anterior oblique - 左前斜</p></li>
+<li><p>recumbent - 卧式, this type is very little</p></li>
+<li><p>blank</p></li>
+<li><p>class</p></li>
+</ol>
+<p>There are totally 14 classes in this dataset, they are: Atelectasis 肺不张, Cardiomegaly 心脏肥大, Consolidation 肺实变, Edema - pulmonary edama 肺水肿, Enlarged Cardiomediastinum 纵膈扩大, Fracture 骨折, Lung Lesion 肺部病变, Lung Opacity 肺部浑浊, No Finding, Pleural Effusion 胸腔积液, Pleural Other 胸腔其它, Pneumonia 肺炎, Pneumothorax 气胸, Support Devices.</p>
+<p>In the original CheXpert paper, only 5 out of 14 classes that contain main pathology inidications has been evaluated, there are: Atelectasis, Cardiomegaly, Consolidation, Edema and Pleural Effusion.</p>
+</div>
+<div class="section" id="data-pre-processing-for-my-project">
+<h4>Data Pre-processing for my project<a class="headerlink" href="#data-pre-processing-for-my-project" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>while processing the data to suit my project objecive, consider to use the front/erect image only which are postero-anterior, antero-posterior, erect and blank in ViewCodeSequence_CodeMachine section.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id6">
+<h3><strong>Third Pass: strengths and weakness</strong><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<hr class="docutils" />
+</div>
 </div>
 </div>
 
